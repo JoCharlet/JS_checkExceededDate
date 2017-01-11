@@ -87,14 +87,15 @@
 		var innera;
 		var posPoints = [];
 
-		//number of TR tags in the document
-		var nbtr=document.getElementsByTagName('tr').length;
+		//number of TR tags in the document - the first one who is the title
+		var nbtr=document.getElementsByTagName('tr').length -1;
 
 		// For each TR tags
-		for(i=0;i<=nbtr;i++){
+		for(i=0;i<nbtr;i++){
 
 			//TD tag number 4 (start at 0) in each TR tag + for each TR tag the date is at the 5th instanciation of TD tag
-			innerDate = document.getElementsByTagName('td')[4+(5*i)].innerHTML;
+      targetTD=4+(5*i);
+			innerDate = document.getElementsByTagName('td')[targetTD].innerHTML;
 
 			//Erase a possible human mistake like a space character at the begining
 			if (innerDate.substring(0,1) == ' '){
