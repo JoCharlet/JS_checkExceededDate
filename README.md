@@ -6,6 +6,7 @@ Get all date from a table and hide the exceeded date. Vanilla JavaScript
  <h1>career</h1>
 
  <table class="table table-striped table-hover table-condensed table-societe">
+ 
   <tr>
   	<th>Publication date</th>
     <th>Job offer</th>
@@ -29,6 +30,7 @@ Get all date from a table and hide the exceeded date. Vanilla JavaScript
   	<td><a href="mailto:jonathan.charlet@bluewin.ch">jonathan.charlet@bluewin.ch</a> ou par poste à Ressources Humaines</td>
   	<td>31.12.2016</td>
   </tr>
+  
   <tr>
    <td>21.09.2016</td>
    <td><a href="#" target="_blank">Médiamaticien</a></td>
@@ -40,18 +42,18 @@ Get all date from a table and hide the exceeded date. Vanilla JavaScript
 
   <tr>
   	<td>14.07.2016</td>
-    <td><a href="#" target="_blank">Informaticien de gestion</a></td>
+    	<td><a href="#" target="_blank">Informaticien de gestion</a></td>
   	<td>JonathanCharlet SA, Ch. des terrasses 10, 1400 Yverdon-les-Bains, Suisse</td>
   	<td><a href="mailto:jonathan.charlet@bluewin.ch">jonathan.charlet@bluewin.ch</a> ou par poste à Ressources Humaines</td>
-    <td>2.1.2017</td>
+    	<td>2.1.2017</td>
   </tr>
 
     <tr>
     	<td>14.07.2016</td>
-      <td><a href="#" target="_blank">Informaticien de gestion</a></td>
+     	<td><a href="#" target="_blank">Informaticien de gestion</a></td>
     	<td>JonathanCharlet SA, Ch. des terrasses 10, 1400 Yverdon-les-Bains, Suisse</td>
     	<td><a href="mailto:jonathan.charlet@bluewin.ch">jonathan.charlet@bluewin.ch</a> ou par poste à Ressources Humaines</td>
-      <td>02 1 17</td>
+      	<td>02 1 17</td>
     </tr>
 
       <tr>
