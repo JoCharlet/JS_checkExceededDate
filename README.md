@@ -121,7 +121,7 @@ Get all date from a table and hide the exceeded date. Vanilla JavaScript
 					innerm = innerDate.substring(posPoints[0]+1,posPoints[1]);
 
           // The year is from the second point to the end
-          innera = innerDate.substring(posPoints[1]+1,innerDate.length);
+          				innera = innerDate.substring(posPoints[1]+1,innerDate.length);
 					posPoints = [];
 
           // if the year is written with only the 2 last digit (innera is casted like a string and not like a number so we do a simple concatenation of a number and a string)
