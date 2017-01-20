@@ -63,6 +63,7 @@ Get all date from a table and hide the exceeded date. Vanilla JavaScript
       	<td><a href="mailto:jonathan.charlet@bluewin.ch">jonathan.charlet@bluewin.ch</a> ou par poste à Ressources Humaines</td>
         <td>02.1.2117</td>
       </tr>
+  </table> 
       
 ```
 
